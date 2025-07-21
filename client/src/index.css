@@ -25,6 +25,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  background: transparent !important;
+}
+.relative, .w-full, .min-h-screen, .h-screen {
+  background: transparent !important;
+}
+
 .home-no-scroll, .home-no-scroll * {
   font-family: 'MorisRoman', serif !important;
 }
