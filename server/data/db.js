@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 // importar módulo MongoDB
 const { MongoClient } =  require('mongodb')
 
